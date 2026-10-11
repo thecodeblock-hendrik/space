@@ -14,7 +14,7 @@ Controls: Arrow keys / A D to move, Space to shoot, P to pause, Enter to start.
 
 ## Regenerate
 
-`main.py` asks Claude to write the game files into this directory. Requires Claude authentication (for example `ANTHROPIC_API_KEY` in `.env`).
+`main.py` asks Claude to write the game files into this directory. Uses your existing Claude Code login.
 
 ```
 uv run main.py
